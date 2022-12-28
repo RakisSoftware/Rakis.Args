@@ -1,0 +1,34 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Version>0.2.0</Version>
+    <Authors>Bert Laverman</Authors>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <Company>Rakis Software</Company>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageProjectUrl>https://github.com/RakisSoftware/Rakis.Args</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/RakisSoftware/Rakis.Args</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <Title>Rakis.Args - A simple commandline parser</Title>
+    <Description>A simple commandline parser.</Description>
+    <Copyright>Copyright (c) 2021-2022 Bert Laverman</Copyright>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Rakis.Logging" Version="0.10.0" />
+  </ItemGroup>
+
+</Project>
